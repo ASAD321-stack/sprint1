@@ -4,9 +4,9 @@
 }
 #form-1 h1{
     color: #b10808;
-    font-weight: 670;
+    font-weight:bolder;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;  
     text-align: center;
     margin-top: 30px; 
@@ -16,7 +16,6 @@
 .container{
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 10px;
 }
 
 
