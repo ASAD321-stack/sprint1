@@ -9,26 +9,14 @@
     font-size: 30px;
     font-family: 'Poppins', sans-serif;  
     text-align: center;
-    margin-top: 50px;
-
-
-   
+    margin-top: 30px; 
 
 }
-#form-1 p{
-    font-size: 15px ;
-    font-weight: bolder; 
-    color: rgb(56, 53, 53);
-    font-style: italic;
-    margin-bottom: 50px;
-    font-family: 'Poppins', sans-serif;  
-    
 
-    
-}
 .container{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
 }
 
 
@@ -36,14 +24,14 @@
     background-color: #b10808;
     color: white;
     border-radius: 0%;
-    padding: 8px 30px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;  
 
 
     
 }
+
 
 
 .col-1 {
@@ -61,16 +49,12 @@
 }
 label {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;  
-
    
 }
 
-.cal-1{
-    display: inline;
-    
-}
+
 .form-row p{
  color: black !important;
  font-size: 15px;

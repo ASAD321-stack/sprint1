@@ -15,7 +15,7 @@
     
 }
 section{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 label{
     font-size: 15px;
@@ -34,15 +34,15 @@ label{
 }
 .col-2{
     border:solid 1px rgb(222, 216, 247);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
    
 }
 
 .col-2 h1{
     color: #b10808;
     font-weight: 670;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 30px;
     margin-top: 20px;
     text-align: center;
@@ -53,20 +53,12 @@ label{
     background-color: #b10808;
     color: white;
     border-radius: 0%;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 80px;
     font-family: 'Poppins', sans-serif;  
     
 
 }
-input[type=text]{
-    padding:25px;
-}
-input[type=email]{
-    padding:25px;
-}
-input[type=password]{
-    padding: 25px
-}
+
 
 
