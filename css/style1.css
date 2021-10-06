@@ -1,48 +1,72 @@
 
-body{
-    padding-left: 100px;
-}
+
 .pic-sec{
     background-image: url("../assets/pexels-leon-ardho-2468339.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 
   
     
 }
+#form-3{
+  
+    margin-top: 100px;
+    
+    
+}
+section{
+    margin-top: 40px;
+}
 label{
     font-size: 15px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;  
+
 }
 
 .container{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 10px 10px 10px rgba(226, 109, 109, 0.233);
+ 
    
 }
 .col-2{
-    padding: 70px;
-    background-color:#F7F6F6 ;
     border:solid 1px rgb(222, 216, 247);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
 }
 
 .col-2 h1{
-    color: midnightblue;
+    color: #b10808;
     font-weight: 670;
     margin-bottom: 40px;
     font-size: 30px;
-    margin-top: 10px;
-}
-.col-2 .btn{
-    background-color: midnightblue;
-    color: white;
-    border-radius: 0%;
-    padding: 8px 40px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;  
 
 }
+.col-2 .btn{
+    background-color: #b10808;
+    color: white;
+    border-radius: 0%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;  
+    
+
+}
+input[type=text]{
+    padding:25px;
+}
+input[type=email]{
+    padding:25px;
+}
+input[type=password]{
+    padding: 25px
+}
+
+

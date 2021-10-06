@@ -3,63 +3,67 @@
     margin:0;
 }
 #form-1 h1{
-    color: midnightblue;
+    color: #b10808;
     font-weight: 670;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;  
+    text-align: center;
+    margin-top: 50px;
+
+
    
 
 }
 #form-1 p{
     font-size: 15px ;
-    font-weight: bold; 
+    font-weight: bolder; 
     color: rgb(56, 53, 53);
     font-style: italic;
     margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;  
     
+
+    
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
 #form-1 .btn{
-    background-color: midnightblue;
+    background-color: #b10808;
     color: white;
     border-radius: 0%;
     padding: 8px 30px;
-    margin-top: 50px
-
-    
-}
-.col-2 h1{
-    
-    margin-bottom: 80px !important;
     margin-top: 30px;
-    
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;  
 
-}
-.container{
-    padding-left: 100px;
-    padding-right: 100px;
-    
 
+    
 }
+
+
 .col-1 {
-    background-color: #F7F6F6;
-    border-top-left-radius: 20px ;
-    border-bottom-left-radius:20px;
-    padding: 80px;
-    padding-bottom: 200px;
+    background-color: #b8494928;
+   
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .col-2{
-    background-color: rgb(235, 223, 235);
-    border-top-right-radius: 20px ;
-    border-bottom-right-radius:20px;
-    padding: 50px;
+    background-color: rgba(173, 166, 214, 0.205);
+    padding-left: 50px;
+    padding-right: 50px;
 
 
 }
 label {
     font-weight: bold;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;  
+
    
 }
 
@@ -71,6 +75,8 @@ label {
  color: black !important;
  font-size: 15px;
  font-style: normal !important;
+ font-family: 'Poppins', sans-serif;  
+
 
 }
 

@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +25,7 @@
 
 
       <div class="row">
-        <div class="col-md-7 col-1">
+        <div class=" col-lg-7 col-md-6 col-sm-12 col-xs-12  col-1">
           <h1>Add Exercise Section</h1>
           <p>Don't wait start losing the wait healthy way</p>
 
@@ -46,12 +49,9 @@
 
 
             <div class="form-group">
-              <label for="exampleInputPassword1">Duration</label>
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Duration*(mins)">
+              <label for="duration">Duration</label>
+              <input type="time" class="form-control" id="duration" placeholder="Duration*(mins)">
             </div>
-
-            
-
 
             <div class="form-group">
               <label for="exercise-date">Date and time</label>
@@ -59,20 +59,17 @@
             </div>
 
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Desciption</label>
-              <textarea class="form-control"  id="exampleFormControlTextarea1" rows="5"></textarea>
+               <label for="exampleFormControlTextarea1">Desciption</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
 
-
-
-
-
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn btn-block">Add</button>
           </form>
 
         </div>
 
-        <div class="col-md-5 col-2">
+        <div class=" col-lg-5 col-md-6 col-sm-12 col-xs-12  col-2">
+
           <h1> How many Calories you burned</h1>
           <form>
             <label for="">Your weight</label>
@@ -81,35 +78,37 @@
               <div class="col-md-3 col-sm-3">
                 <input type="number" class="form-control" placeholder="200">
               </div>
-              <div class="col-md-9 col-sm-9">
+              <div class="col-md-9 col-sm-9 ">
                 <select class="form-control" id="">
                   <option>pounds</option>
                   <option>kg</option>
-                  
+
                 </select>
               </div>
             </div>
 
             <label for="">How long</label>
             <div class="form-row form-group">
-              <div class="col-md-10">
-                <input type="number" class="form-control" >
+              <div class="col-md-3 col-sm-3 ">
+                <input type="number" class="form-control">
               </div>
-              <p>Min</p>
+              <div class="col-md-8 col-sm-8 ">
+                <p>Min</p>
+              </div>
+              <button type="submit" class="btn btn-block">Calculate</button>
             </div>
-            <button type="submit" class="btn">Submit</button>
 
 
           </form>
 
 
-          </div>
-
-
-
-
         </div>
+
+
+
+
       </div>
+    </div>
     </div>
 
 
