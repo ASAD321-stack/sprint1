@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+    --maroon: #b10808;
+    --font-poppins: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navgation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--maroon);
+    border-left: 10px solid var(--maroon);
+    transition: 1s ease;
+}
+
+.navgation.active{
+    width: 90px;
+}
+
+.navgation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navgation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+}
+
+.navgation ul li:nth-child(1){
+    margin-bottom: 50px;
+    pointer-events: none;
+}
+
+
+
+.navgation ul li:hover{
+    background-color: var(--white);
+    border-radius: 25px 0 0 25px;
+    padding: 20px;
+    color: var(--blue);
+}
+
+.navgation ul li a{
+    color: var(--white);
+    text-decoration: none;
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.navgation ul li:hover a{
+    color: var(--maroon);
+}
+
+.navgation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    text-align: center;
+}
+
+.navgation ul li a .icon ion-icon{
+    font-size: 24px;
+}
+
+.main{
+    position: absolute;
+    width: calc(100% - 100px );
+    left: 300px;
+    min-height: 100vh;
+    transition: 0.5s ease;
+    background: var(--white);
+    padding: 0 40px;
+}
+
+.main.active{
+   
+    width: calc(100% - 90px);
+    left: 90px;
+   
+}
+.topbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid var(--grey);
+    font-family: var(--font-poppins);
+}
+.toggle{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    position: relative;
+    cursor: pointer;
+    
+}
+.user ion-icon{
+    width: 30px;
+    height: 30px;
+    color: var(--maroon);
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
+
+.user h6{
+    cursor: pointer;
+}
+
+
+#information-section .cardbox{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    font-family: var(--font-poppins);
+    
+   
+  
+}
+
+
+
+
+#information-section .cardbox .information-details{
+    border: 1px solid var(--grey);
+    padding: 10px 30px;
+    box-shadow: 5px 10px var(--grey);
+    
+
+  
+    
+}
+
+#information-section .cardbox .information-details a{
+    text-transform: none;
+    color: var(--maroon);
+}
+
+#information-section .cardbox .information-details a:hover{
+    text-decoration: none;
+    
+}
+
+#information-section .cardbox .information-details ion-icon{
+    font-size: 1.5em;
+}
+
+#pending-task{
+
+margin: 50px; 
+font-family: var(--font-poppins); 
+}
+
+pending-task .btn-theme1{
+    background-color: var(--maroon);
+}
+
+#pending-task h4{
+    font-family: var(--font-poppins);
+    font-weight: bold;
+}
+
+#pending-task ion-icon{
+    font-size: 1.5em;
+   
+    
+}
+
+#pending-task .card {
+    border-radius: 25px;
+    padding: 25px;
+    
+}
+
+
+
+#pending-task .c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+#pending-task .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 15px;;
+}
+
+#pending-task .badge span {
+    background-color: var(--maroon);
+    width: 50px;
+    height: 35px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#pending-task  h6{
+    font-weight: bold;}
+
+#pending-task .progress {
+    height: 5px;
+    border-radius: 10px
+}
+
+#pending-task .progress .progress-bar{
+    height: 5px;
+}
+
+#pending-task .progress div {
+    background-color: var(--maroon)
+}
+
+#pending-task .text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+#pending-task .text2 {
+    color: #a5aec0
+}
+#complete-task{
+    margin: 50px; 
+font-family: var(--font-poppins); 
+}
+
+#complete-task h4{
+    font-family: var(--font-poppins);
+    font-weight: bold;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .navgation{
+        position: fixed;
+        width: 90px;
+        height: 100%;
+        background: var(--maroon);
+        
+        transition: 0.5s ease;
+    }
+    .main{
+        position: relative;
+        width: calc(100% );
+        left: 90px;
+        min-height: 100vh;
+        transition: 0.5s ease;
+        background: var(--white);
+    }
+
+    .navgation.active{
+        width: 300px;
+    }
+
+    .main.active{
+   
+        width: calc(100% - 100px);
+        left: 300px;
+       
+    }
+  }
+
+
+  /* @media screen and (max-width: 600px) {
+    .navgation{
+        position: fixed;
+        width: 90px;
+        height: 100%;
+        background: var(--maroon);
+        
+        transition: 0.5s ease;
+    }
+    .main{
+        position: relative;
+        width: calc(100% - 300px);
+        left: 90px;
+        min-height: 100vh;
+        transition: 0.5s ease;
+        background: var(--white);
+    }
+
+    .navgation.active{
+        width: 300px;
+    }
+
+    .main.active{
+   
+        width: calc(100% - 300px);
+        left: 300px;
+       
+    }
+  } */
+
+
+@media screen and (max-width: 576px) {
+    .navgation{
+        position: fixed;
+        width: 90px;
+        height: 100%;
+        background: var(--maroon);
+        
+        transition: 0.5s ease;
+    }
+    .main{
+        position: relative;
+        width: calc(100% - 90px);
+        left: 90px;
+        min-height: 100vh;
+        transition: 0.5s ease;
+        background: var(--white);
+    }
+
+    .navgation.active{
+        width: 300px;
+    }
+
+    .main.active{
+   
+        width: calc(100% - 300px);
+        left: 300px;
+       
+    }
+  }
