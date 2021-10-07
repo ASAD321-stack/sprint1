@@ -33,6 +33,7 @@ body{
     height: 100%;
     background: var(--maroon);
     border-left: 10px solid var(--maroon);
+    box-shadow: 2px 2px 5px #888888;
 }
 
 
@@ -161,6 +162,7 @@ body{
 
 #information-section{
 margin: 50px; 
+padding: 50px;
 font-family: var(--font-poppins); 
 }
 
@@ -198,7 +200,7 @@ font-family: var(--font-poppins);
     justify-content: center;
     font-size: 20px;
     margin-right: 15px;
-    box-shadow: 20px 10px 100px #888888;
+    box-shadow: 0px 0px 100px #888888;
 }
 
 #information-section .badge span {
