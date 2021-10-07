@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
 
@@ -28,30 +28,30 @@
             <span class="title">Exercise Tracker</span>
           </a>
         </li>
-        <li>
+        <li class="active">
           <a href="">
             <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
             <span class="title">Dashboard</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="./form3.html">
             <span class="icon"><ion-icon name="analytics-outline"></ion-icon></span>
-            <span class="title">Analytics</span>
+            <span class="title">Sign In</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="./form-2.html">
             <span class="icon"><ion-icon name="newspaper-outline"></ion-icon></span>
-            <span class="title">Reports</span>
+            <span class="title">Sign Up</span>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="">
             <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
             <span class="title">Inbox</span>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="">
             <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
@@ -71,45 +71,61 @@
     <!--Main Side-->
     <div class="main">
       <div class="topbar">
-        <div class="toggle">
-          <ion-icon name="menu-outline"></ion-icon>
-        </div>
-        <div class="user d-flex">
-          <h6 class="mr-3 my-auto">User Name</h6>
+        <div class="container">
+          <div class="row">
+        <div class=" user  d-flex ml-auto">
+          <h6 class="mr-3 my-auto">Asad Naseem</h6>
           <h6 class="mr-3 my-auto">Account Settings</h6>
           <ion-icon name="person-circle-outline"></ion-icon>
         </div>
       </div>
+    </div>
+  </div>
 
       <section id="information-section" class="my-5">
         <div class="container">
-            <div class="rows">
-              <div class="cardbox">
-                <div class="col-lg-4 information-details">
-                  <a href="">
-                   <ion-icon name="folder-open-outline"></ion-icon>
-                   <h2>Pending Task</h1>
-                    <h5>23</h5>
-                  </a>
-                </div>    
-
-               <div class="col-lg-4 information-details">
-              <a href="">
-                <ion-icon name="barbell-outline"></ion-icon>
-              <h2>Complete Task</h1>
-              <h5>58</h5>
-            </a>
-               </div>   
-
-               <div class="col-lg-4 information-details">
-              <a href="">
-                <ion-icon name="trophy-outline"></ion-icon>
-              <h2>Total Task</h1>
-              <h5>126</h5>
-            </a>
-               </div>   
-           </div>
+          <div class="row">
+            <div class=" col-lg-4 col-md-12 col-sm-12 mb-2">
+              <div class="card p-3 mb-2">
+                  <div class="">
+                    <div class="icon mb-3"> <i class="fas fa-tasks"></i> </div>
+                      <div class="d-flex justify-content-between align-content-center">
+                        <div><h5 class="mt-3"><b> Pending <br> Tasks</b></h5> </div>
+                        <div class="badge mt-3"> <span>23</span>> </div>
+                      </div>
+                  </div>
+                  
+              </div>
           </div>
+
+          <div class=" col-lg-4 col-md-12 col-sm-12 mb-2">
+            <div class="card p-3 mb-2">
+                <div class="">
+                  <div class="icon mb-3"> <i class="fas fa-check-circle"></i> </div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <div><h5 class="mt-3"><b> Completed <br> Tasks</b></h5> </div>
+                      <div class="badge mt-3"> <span>56</span>> </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" col-lg-4 col-md-12 col-sm-12 mb-2">
+          <div class="card p-3 mb-2">
+              <div class="">
+                <div class="icon mb-3"> <i class="fas fa-trophy"></i> </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                    <div><h5 class="mt-3"><b> Total <br> Tasks</b></h5> </div>
+                    <div class="badge mt-3"> <span>157</span>> </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+
+         </div>
+        </div>
       </section>
 
       <section id="pending-task">
@@ -124,7 +140,7 @@
                 
                 <ion-icon class="ml-auto p-2" name="trash-outline"></ion-icon>
              
-                <button class="btn btn-theme1  my-0">Add New Task</button>
+           <a href="./form1.html">  <button class="btn btn-theme1  my-0"> Add New Task</button> </a>
               
             </div>
           </div>
@@ -134,11 +150,11 @@
 
           <div class="container mt-5 mb-3">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card p-3 mb-4">
+                <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card p-3 mb-2">
                         <div class="d-flex justify-content-between">
                             <div class="d-flex flex-row align-items-center">
-                                <div class="icon"> <ion-icon name="bicycle-outline"></ion-icon> </div>
+                                <div class="icon"> <i class="far fa-futbol"></i> </div>
                                 <div class="ms-2 c-details">
                                     <h6 class="mb-0">Bicycling</h6> <span>1 days ago</span>
                                 </div>
@@ -149,11 +165,11 @@
                           <div class="d-flex justify-content-between">
                             <h5 class="heading">Progress</h5>
                             <span></span>
-                            <h5>45%</h5>
+                            <h5>55%</h5>
                           </div>
                             <div class="mt-3">
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                             </div>
@@ -161,13 +177,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class=" col-lg-4  col-md-6 col-sm-12">
                   <div class="card p-3 mb-2">
                       <div class="d-flex justify-content-between">
                           <div class="d-flex flex-row align-items-center">
-                              <div class="icon"> <i class="fas fa-running"></i> </div>
+                              <div class="icon"> <i class="fas fa-swimmer"></i> </div>
                               <div class="ms-2 c-details">
-                                  <h6 class="mb-0">Running</h6> <span>1 days ago</span>
+                                  <h6 class="mb-0">Bicycling</h6> <span>1 days ago</span>
                               </div>
                           </div>
                           <div class="badge"> <span>Edit</span> </div>
@@ -176,11 +192,11 @@
                         <div class="d-flex justify-content-between">
                           <h5 class="heading">Progress</h5>
                           <span></span>
-                          <h5>45%</h5>
+                          <h5>30%</h5>
                         </div>
                           <div class="mt-3">
                               <div class="progress">
-                                  <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                               <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                           </div>
@@ -188,13 +204,13 @@
                   </div>
               </div>
 
-              <div class="col-md-4">
+              <div class=" col-lg-4  col-md-6 col-sm-12">
                 <div class="card p-3 mb-2">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex flex-row align-items-center">
-                            <div class="icon"> <i class="fas fa-dumbbell"></i> </div>
+                            <div class="icon"> <i class="fas fa-biking"></i></div>
                             <div class="ms-2 c-details">
-                                <h6 class="mb-0">Abs</h6> <span>1 days ago</span>
+                                <h6 class="mb-0">Bicycling</h6>  <span>1 days ago</span>
                             </div>
                         </div>
                         <div class="badge"> <span>Edit</span> </div>
@@ -203,11 +219,11 @@
                       <div class="d-flex justify-content-between">
                         <h5 class="heading">Progress</h5>
                         <span></span>
-                        <h5>45%</h5>
+                        <h5>90%</h5>
                       </div>
                         <div class="mt-3">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                         </div>
@@ -215,13 +231,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class=" col-lg-4 col-md-6 col-sm-12">
               <div class="card p-3 mb-2">
                   <div class="d-flex justify-content-between">
                       <div class="d-flex flex-row align-items-center">
-                          <div class="icon"> <i class="fas fa-swimmer"></i> </div>
+                          <div class="icon"> <i class="fas fa-running"></i> </div>
                           <div class="ms-2 c-details">
-                              <h6 class="mb-0">Swimming</h6> <span>1 days ago</span>
+                              <h6 class="mb-0">Bicycling</h6> <span>1 days ago</span>
                           </div>
                       </div>
                       <div class="badge"> <span>Edit</span> </div>
@@ -230,11 +246,11 @@
                     <div class="d-flex justify-content-between">
                       <h5 class="heading">Progress</h5>
                       <span></span>
-                      <h5>45%</h5>
+                      <h5>85%</h5>
                     </div>
                       <div class="mt-3">
                           <div class="progress">
-                              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                           <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                       </div>
@@ -242,13 +258,13 @@
               </div>
           </div>
 
-          <div class="col-md-4">
+          <div class=" col-lg-4 col-md-6 col-sm-12">
             <div class="card p-3 mb-2">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex flex-row align-items-center">
-                        <div class="icon"> <i class="far fa-futbol"></i> </div>
+                        <div class="icon"><i class="fas fa-running"></i>  </div>
                         <div class="ms-2 c-details">
-                            <h6 class="mb-0">football</h6> <span>1 days ago</span>
+                            <h6 class="mb-0">Bicycling</h6> <span>1 days ago</span>
                         </div>
                     </div>
                     <div class="badge"> <span>Edit</span> </div>
@@ -257,11 +273,11 @@
                   <div class="d-flex justify-content-between">
                     <h5 class="heading">Progress</h5>
                     <span></span>
-                    <h5>45%</h5>
+                    <h5>15%</h5>
                   </div>
                     <div class="mt-3">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                     </div>
@@ -269,26 +285,26 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class=" col-lg-4 col-md-6 col-sm-12">
           <div class="card p-3 mb-2">
               <div class="d-flex justify-content-between">
                   <div class="d-flex flex-row align-items-center">
-                      <div class="icon"> <ion-icon name="walk-outline"></ion-icon> </div>
+                      <div class="icon">  <i class="fas fa-swimmer"></i></div>
                       <div class="ms-2 c-details">
-                          <h6 class="mb-0">Jogging</h6> <span>1 days ago</span>
+                          <h6 class="mb-0">Bicycling</h6> <span>1 days ago</span>
                       </div>
                   </div>
                   <div class="badge"> <span>Edit</span> </div>
               </div>
               <div class="mt-5">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between"> 
                   <h5 class="heading">Progress</h5>
                   <span></span>
-                  <h5>45%</h5>
+                  <h5>100%</h5>
                 </div>
                   <div class="mt-3">
                       <div class="progress">
-                          <div class="progress-bar " role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <div class="mt-3"> <span class="text1">Days Left <span class="text2">5 Days</span></span> </div>
                   </div>
@@ -337,7 +353,7 @@
                 <td>Bicycling</td>
                 <td>13 aug 2018</td>
                 <td>30 Minutes</td>
-                <td><button class="btn">View Details</button>
+                <td><button class="btn btn-theme1">View Details</button>
                 
                 </td>
               </tr>
@@ -346,7 +362,7 @@
                 <td>Abs</td>
                 <td>13 aug 2018</td>
                 <td>30 Minutes</td>
-                <td><button class="btn">View Details</button>
+                <td><button class="btn btn-theme1">View Details</button>
                   
               </tr>
               <tr>
@@ -354,7 +370,7 @@
                 <td>Gym, Legs</td>
                 <td>13 aug 2018</td>
                 <td>30 Minutes</td>
-                <td><button class="btn">View Details</button>
+                <td><button class="btn btn-theme1">View Details</button>
                   
               </tr>
               <tr>
@@ -362,7 +378,7 @@
                 <td>Gym, Legs</td>
                 <td>13 aug 2018</td>
                 <td>30 Minutes</td>
-                <td><button class="btn">View Details</button>
+                <td><button class="btn btn-theme1">View Details</button>
                   
               </tr>
               <tr>
@@ -370,7 +386,7 @@
                 <td>Climbing</td>
                 <td>13 aug 2018</td>
                 <td>30 Minutes</td>
-                <td><button class="btn">View Details</button>
+                <td><button class="btn btn-theme1">View Details</button>
                   
               </tr>
             </tbody>
